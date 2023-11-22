@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Đồ Gia Dụng Thông Minh</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Trang web giới thiệu và bán đồ gia dụng thông minh</h1>
+  
+  <form id="productForm" action="save_product.php" method="post">
+    <input type="text" name="productName" placeholder="Tên sản phẩm" required>
+    <input type="text" name="productPrice" placeholder="Giá sản phẩm" required>
+    <textarea name="productDescription" placeholder="Mô tả sản phẩm" required></textarea>
+    <input type="submit" value="Thêm sản phẩm">
+  </form>
+
+  <div id="productsContainer">
+    <!-- Danh sách sản phẩm sẽ được hiển thị ở đây -->
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

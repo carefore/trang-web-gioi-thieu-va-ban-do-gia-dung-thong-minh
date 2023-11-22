@@ -1,0 +1,17 @@
+/* Các CSS để trang web trở nên đẹp hơn */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+form input,
+form textarea,
+form select {
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 8px;
+}
+
+#productsContainer {
+  margin-top: 20px;
+}
